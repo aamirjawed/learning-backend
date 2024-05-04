@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import cookieParser from 'cookie-parser';
 
+
 const app = express();
 
 app.use(cors({ // this is useful when we do cross orign request
@@ -23,4 +24,14 @@ app.use(express.static("public")) // this is useful when we want to upload stati
 
 
 app.use(cookieParser())
+
+
+
+//routes import
+
+import userRouter from './routes/user.routes.js';
+
+//routes declarartion
+app.use("/api/v1/users", userRouter)
+
 export {app}
