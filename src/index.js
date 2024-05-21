@@ -14,7 +14,7 @@ connectDB() // connecting database
     })
 })
 .catch((err) =>{
-    console.log("MONDO db connection failed !!! : " ,err);
+    console.log("MONGO db connection failed !!! : " ,err);
 })
 
 
