@@ -22,21 +22,5 @@ This is a backend learning project built using Node.js, Express, and MongoDB. It
 ---
 
 
-## 📁 Project Structure
-
-
-learning-backend/
-├── public/               # Public/static files (e.g., index.html)
-├── src/
-│   ├── controller/       # Route handlers (e.g., userController.js)
-│   ├── middleware/       # Custom middleware (e.g., notFound.js, errorHandler.js)
-│   ├── routes/           # Express route definitions (e.g., userRoutes.js)
-│   ├── views/            # Template views (if using EJS)
-│   └── app.js            # Main Express app setup
-├── .env                  # Environment variables
-├── .gitignore            # Git ignored files/folders
-├── package.json          # Project metadata and dependencies
-├── README.md             # Project documentation
-└── server.js             # Entry point to start the Express server
 
 
